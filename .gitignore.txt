@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+.env
+.venv
+
+# YOLOv8 model weights (large files — auto-downloaded at runtime)
+models/*.pt
+*.pt
+
+# Project output folders (generated at runtime)
+inputs/
+outputs/
+batch_outputs/
+
+# Jupyter / Colab notebooks (optional — uncomment if you don't want to track)
+# *.ipynb
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Temp / cache
+*.tmp
+*.cache
+.cache/
